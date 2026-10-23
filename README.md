@@ -33,53 +33,6 @@ I like understanding computers from the bottom up — not just **what** software
 
 ---
 
-## `the_layer_between`
-
-<p align="center">
-  <img src="./assets/systems-pipeline.gif" width="95%" alt="Animated software to hardware pipeline">
-</p>
-
-```text
-                    ┌───────────────┐
-                    │     CODE      │
-                    └───────┬───────┘
-                            │
-                    ┌───────▼───────┐
-                    │   USERSPACE   │
-                    └───────┬───────┘
-                            │
-                         syscall
-                            │
-                    ┌───────▼───────┐
-                    │     KERNEL    │
-                    └───────┬───────┘
-                            │
-                  ┌─────────┴─────────┐
-                  │                   │
-             ┌────▼────┐         ┌────▼────┐
-             │   CPU   │         │  MEMORY  │
-             └─────────┘         └──────────┘
-```
-
-This is the layer of computing I'm most interested in exploring.
-
----
-
-## `current_state`
-
-```text
-┌──────────────────────────────────────────────┐
-│                                              │
-│  OS / KERNELS                    [ ACTIVE ]  │
-│  COMPUTER ARCHITECTURE           [ ACTIVE ]  │
-│  SYSTEMS PROGRAMMING             [ ACTIVE ]  │
-│  x86                              [ ACTIVE ]  │
-│  LINUX / UNIX                     [ ACTIVE ]  │
-│  SYSTEMS RESEARCH                 [ ACTIVE ]  │
-│                                              │
-└──────────────────────────────────────────────┘
-```
-
 ### Building
 
 **Arceon** — an educational x86 operating system.
@@ -101,36 +54,6 @@ TOOLS           GCC • GDB • Make • Git
 DOMAINS         OS • Architecture • Networking
 ```
 
----
-
-## `github_activity`
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shridattadixit06&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165" alt="GitHub statistics">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shridattadixit06&hide_border=true&theme=transparent" height="165" alt="GitHub streak">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shridattadixit06&bg_color=00000000&color=9aa7b2&line=78e6aa&point=ffffff&hide_border=true" width="95%" alt="GitHub activity">
-</p>
-
----
-
-## `philosophy`
-
-```text
-LEARN
-  ↓
-BUILD
-  ↓
-BREAK
-  ↓
-DEBUG
-  ↓
-UNDERSTAND
-  ↓
-BUILD IT BETTER
-```
 
 <p align="center">
   <code>currently somewhere between userspace and the kernel.</code>
