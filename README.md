@@ -1,4 +1,4 @@
-# `SHRIDATTA // SYSTEMS`
+# `SHRIDATTA DIXIT`
 
 <p align="center">
   <img src="./assets/systems-boot.gif" width="100%" alt="Animated systems boot dashboard">
