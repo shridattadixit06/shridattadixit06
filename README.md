@@ -48,7 +48,7 @@ Alongside it, I'm exploring shells, system calls, networking, tracing, and the m
 </p>
 
 ```text
-LANGUAGES       C • C++ • Assembly
+LANGUAGES       C • C++ • Assembly Python • Java • JavaScript • HTML • CSS
 SYSTEMS         Linux • UNIX
 TOOLS           GCC • GDB • Make • Git
 DOMAINS         OS • Architecture • Networking
