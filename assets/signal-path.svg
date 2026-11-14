@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-labelledby="title desc">
+<title id="title">Signal path through a computer system</title>
+<desc id="desc">An animated two-dimensional signal travels from source to CPU, kernel, network, and storage.</desc>
+<defs>
+  <linearGradient id="line" x1="0" x2="1"><stop stop-color="#4dabf7"/><stop offset=".5" stop-color="#63e6be"/><stop offset="1" stop-color="#9775fa"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="150" rx="18" fill="#091522" stroke="#20384c"/>
+<path d="M90 74H1110" stroke="#29465c" stroke-width="3" stroke-dasharray="6 8"/>
+<path d="M90 74H1110" stroke="url(#line)" stroke-width="2" opacity=".8" stroke-dasharray="12 12">
+<animate attributeName="stroke-dashoffset" from="0" to="-96" dur="3s" repeatCount="indefinite"/>
+</path>
+<g font-family="monospace" font-size="12" text-anchor="middle">
+<g transform="translate(115 74)"><rect x="-42" y="-24" width="84" height="48" rx="8" fill="#10283a" stroke="#4dabf7"/><text y="4" fill="#d0ebff">INPUT</text><text y="48" fill="#8daec5" font-size="10">SOURCE</text></g>
+<g transform="translate(355 74)"><rect x="-42" y="-24" width="84" height="48" rx="8" fill="#10283a" stroke="#63e6be"/><text y="4" fill="#d3f9d8">CPU</text><text y="48" fill="#8daec5" font-size="10">EXECUTE</text></g>
+<g transform="translate(595 74)"><rect x="-42" y="-24" width="84" height="48" rx="8" fill="#10283a" stroke="#9775fa"/><text y="4" fill="#e5dbff">KERNEL</text><text y="48" fill="#8daec5" font-size="10">SYSCALL</text></g>
+<g transform="translate(835 74)"><rect x="-42" y="-24" width="84" height="48" rx="8" fill="#10283a" stroke="#ffa94d"/><text y="4" fill="#fff4e6">NETWORK</text><text y="48" fill="#8daec5" font-size="10">PACKETS</text></g>
+<g transform="translate(1075 74)"><rect x="-42" y="-24" width="84" height="48" rx="8" fill="#10283a" stroke="#f783ac"/><text y="4" fill="#ffdeeb">STORAGE</text><text y="48" fill="#8daec5" font-size="10">PERSIST</text></g>
+</g>
+<circle r="6" fill="#e6fcf5" filter="url(#soft)">
+<animateMotion dur="5s" repeatCount="indefinite" path="M115 74 L355 74 L595 74 L835 74 L1075 74"/>
+</circle>
+<circle r="3" fill="#63e6be"><animateMotion dur="5s" begin="1.7s" repeatCount="indefinite" path="M115 74 L355 74 L595 74 L835 74 L1075 74"/></circle>
+</svg>
