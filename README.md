@@ -112,11 +112,11 @@ An early-stage idea exploring how memory layout, indexing, and locality influenc
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=c,cpp,python,linux,bash,git,github,mysql,js,html,css&theme=dark" alt="Technologies and tools: C, C++, Python, Linux, Bash, Git, GitHub, MySQL, JavaScript, HTML and CSS">
+<img src="https://skillicons.dev/icons?i=c,python,linux,bash,git,github,mysql,js,html,css&theme=dark" alt="Technologies and tools: C, C++, Python, Linux, Bash, Git, GitHub, MySQL, JavaScript, HTML and CSS">
 
 </div>
 
-**Systems:** C, C++, Linux, UNIX system calls, x86 assembly, NASM  
+**Systems:** C, Linux, UNIX system calls, x86 assembly, NASM  
 **Build & debug:** GCC, Make, GDB, GNU Binutils, QEMU, Git  
 **Networking & storage:** TCP sockets, `select()`, `poll()`, file I/O, MySQL  
 **Other:** Python, JavaScript, HTML, CSS
